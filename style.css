@@ -1,6 +1,3 @@
-
-
-
 * {
   box-sizing: border-box;
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
@@ -11,34 +8,38 @@
   font-family: Montserrat, sans-serif;
 }
 
-nav{
+nav {
   background: lightblue;
   display: flex;
   justify-content: flex-end;
 }
 
-.container-content{
+.container-content {
   display: flex;
   justify-content: center;
-  background: #a1b8ff
+  background: #a1b8ff;
 }
 
-.inner{
+.inputs {
+  display: inline-block;
+  width: 80%;
+  text-align: left;
+}
+
+.inner {
   width: 348px;
   text-align: center;
-  background: #fc8b83
+  background: #fc8b83;
 }
 
-.inputs{
- display: inline-block;
- text-align: left;
-}
 
-.inputs input{
-  width: 320px;
+.inputs input[type="email"],
+.inputs input[type="tel"],
+.inputs input[type="password"] {
   height: 34px;
+  width: 100%;
 }
 
-footer{
+footer {
   text-align: center;
 }
