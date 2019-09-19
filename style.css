@@ -30,7 +30,13 @@ nav{
 }
 
 .inputs{
+ display: inline-block;
+ text-align: left;
+}
 
+.inputs input{
+  width: 320px;
+  height: 34px;
 }
 
 footer{
