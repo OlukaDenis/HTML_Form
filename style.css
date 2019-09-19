@@ -1,8 +1,38 @@
+
+
+
 * {
+  box-sizing: border-box;
   font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
 
 .icons-set span {
   font-family: Montserrat, sans-serif;
+}
+
+nav{
+  background: lightblue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-content{
+  display: flex;
+  justify-content: center;
+  background: #a1b8ff
+}
+
+.inner{
+  width: 348px;
+  text-align: center;
+  background: #fc8b83
+}
+
+.inputs{
+  justify-content: flex-start;
+}
+
+footer{
+  text-align: center;
 }
