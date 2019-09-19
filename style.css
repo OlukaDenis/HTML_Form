@@ -4,6 +4,10 @@
     sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .icons-set span {
   font-family: Montserrat, sans-serif;
 }
@@ -15,24 +19,24 @@ nav {
   padding: 10px 30px;
 }
 
-h2{
-  color: #4C4C4C;
+h2 {
+  color: #4c4c4c;
   line-height: 1.1;
   font-size: 24px;
   padding: 30px 0px;
 }
 
-section{
+section {
   background-color: #fff;
   border: 1px solid #c7c7c7;
 }
 
-.header-closure{
-  color: #4C4C4C;
+.header-closure {
+  color: #4c4c4c;
   font-size: 14px;
 }
 
-.header-closure a{
+.header-closure a {
   font-size: 12px;
 }
 .container-content {
@@ -53,23 +57,86 @@ section{
   background: #fc8b83;
 }
 
-
 .inputs input[type="email"],
 .inputs input[type="tel"],
 .inputs input[type="password"] {
   height: 34px;
   width: 348px;
+  border: #c1c5c8 solid 1px;
+  border-radius: 4px;
 }
 
-header{
+.inputs label p {
+  padding: 8px 0px;
+  font-weight: 400;
+  color: #404040;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.phone-message span {
+  font-size: 10px;
+  color: #444;
+}
+
+header {
   padding: 20px 0px;
-  background: #eceef1
+  background: #eceef1;
 }
 
-header .main-icon{
+header .main-icon {
   padding: 4px 0px;
 }
 
+button {
+  background: linear-gradient(to bottom, #0077c5 0, #167ccc 100%);
+  border-radius: 4px;
+}
+
+fieldset button {
+  width: 348px;
+  height: 44px;
+  border: none;
+
+  color: white;
+  font-size: 15.75px;
+}
+
+.btn-field {
+  padding: 30px 12px;
+}
+
+.terms {
+  display: inline-block;
+  font-style: italic;
+  color: #7c7c7c;
+  line-height: 1.8;
+  font-size: 13px;
+  width: 273.06px;
+  margin: 2px 0px;
+  padding-bottom: 20px;
+}
+
+.captcha {
+  background: #eceef1;
+  font-size: 10px;
+}
+
+.captcha p {
+  padding: 20px 0;
+  width: 320px;
+  color: #7c7c7c;
+  display: inline-block;
+}
+
 footer {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+footer ul {
+  display: flex;
   text-align: center;
 }
