@@ -26,7 +26,7 @@ If you are working on adding features, PRs, or bugfixes, this section should hel
 
 # Screenshot
 
-![Image](mages/mint_clone.png)
+![Image](images/mint_clone.png)
 
 # Authors
 
