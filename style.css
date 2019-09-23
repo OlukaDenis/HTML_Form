@@ -220,6 +220,10 @@ footer a {
   color: #505050;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .header-closure a {
   font-size: 12px;
 }
@@ -338,8 +342,4 @@ footer p {
   width: 320px;
   color: #7c7c7c;
   display: inline-block;
-}
-
-a:hover {
-  text-decoration: underline;
 }
