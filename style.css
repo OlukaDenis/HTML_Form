@@ -87,10 +87,11 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -120,10 +121,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
@@ -133,7 +134,7 @@ table {
   border-spacing: 0;
 }
 
-/*===========================================
+/* ===========================================
       TABLE OF CONTENTS
 =======================================
 
@@ -156,14 +157,19 @@ a:hover {
   text-decoration: underline;
 }
 
-/*============================================
+/* ============================================
       NAVBAR
-=============================================*/
+============================================= */
 nav {
   background: #eceef1;
   display: flex;
   justify-content: flex-end;
   padding: 10px 30px;
+}
+
+button {
+  background: linear-gradient(to bottom, #0077c5 0, #167ccc 100%);
+  border-radius: 4px;
 }
 
 nav button {
@@ -172,24 +178,24 @@ nav button {
   border: 1px solid #4c4c4c;
   width: 102.36px;
   height: 34px;
-  color: #ffffff;
+  color: #fff;
   font-size: 13px;
 }
 
 nav p {
   font-size: 12px;
   color: #505050;
-  padding: 3px 0px;
-  font-family: Nunito;
+  padding: 3px 0;
+  font-family: "Nunito", sans-serif;
 }
 
 .nav-desc {
   padding-right: 6px;
 }
 
-/*===============================================
+/* ===============================================
       FORM BODY
-=================================================*/
+================================================= */
 
 .icons-set span {
   font-family: Montserrat, sans-serif;
@@ -200,18 +206,22 @@ h2 {
   color: #4c4c4c;
   line-height: 1.1;
   font-size: 24px;
-  padding: 30px 0px;
+  padding: 30px 0;
 }
 
 section {
   background-color: #fff;
   border: 1px solid #c7c7c7;
-  font-family: Nunito;
+  font-family: "Nunito", sans-serif;
 }
 
 .header-closure {
   color: #4c4c4c;
   font-size: 14px;
+}
+
+footer a {
+  color: #505050;
 }
 
 .header-closure a {
@@ -260,17 +270,12 @@ section {
 }
 
 header {
-  padding: 20px 0px;
+  padding: 20px 0;
   background: #eceef1;
 }
 
 header .main-icon {
   padding: 4px 0px;
-}
-
-button {
-  background: linear-gradient(to bottom, #0077c5 0, #167ccc 100%);
-  border-radius: 4px;
 }
 
 fieldset button {
@@ -292,7 +297,7 @@ fieldset button {
   line-height: 1.8;
   font-size: 13px;
   width: 273.06px;
-  margin: 2px 0px;
+  margin: 2px 0;
   padding-bottom: 20px;
 }
 
@@ -301,35 +306,24 @@ fieldset button {
   font-size: 10px;
 }
 
-.captcha p {
-  padding: 20px 0;
-  width: 320px;
-  color: #7c7c7c;
-  display: inline-block;
-}
-
-/*================================================
+/* ================================================
           FOOTER
-==================================================*/
+================================================== */
 
 footer {
   text-align: center;
-  padding: 20px 0px;
+  padding: 20px 0;
   background: #eceef1;
 }
 
 footer ul {
-  padding: 5px 0px 0px;
+  padding: 5px 0 0;
   font-size: 12px;
 }
 
 footer ul li {
   display: inline-block;
   padding: 4px 8px;
-}
-
-footer a {
-  color: #505050;
 }
 
 footer a:hover {
@@ -340,5 +334,12 @@ footer p {
   font-size: 12px;
   color: #505050;
   word-spacing: 2px;
-  font-family: Nunito;
+  font-family: "Nunito", "san-serif";
+}
+
+.captcha p {
+  padding: 20px 0;
+  width: 320px;
+  color: #7c7c7c;
+  display: inline-block;
 }
