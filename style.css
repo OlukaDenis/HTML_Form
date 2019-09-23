@@ -153,10 +153,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 /* ============================================
       NAVBAR
 ============================================= */
@@ -275,7 +271,7 @@ header {
 }
 
 header .main-icon {
-  padding: 4px 0px;
+  padding: 4px 0;
 }
 
 fieldset button {
@@ -334,7 +330,7 @@ footer p {
   font-size: 12px;
   color: #505050;
   word-spacing: 2px;
-  font-family: "Nunito", "san-serif";
+  font-family: "Nunito", sans-serif;
 }
 
 .captcha p {
@@ -342,4 +338,8 @@ footer p {
   width: 320px;
   color: #7c7c7c;
   display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline;
 }
