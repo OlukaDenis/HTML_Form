@@ -5,6 +5,7 @@ The objective of the project is to develop an HTML form that matches the appeara
 Read more about the project detailed description from the [Odin website](https://www.theodinproject.com/courses/html5-and-css3/lessons/forms-for-collecting-data).
 
 ### [Assingment Link](https://www.theodinproject.com/courses/html5-and-css3/lessons/forms-for-collecting-data)
+### [Live link](https://raw.githack.com/OlukaDenis/HTML_Form/e3781906963ed11f9251a060cd8be37c04b762ff/index.html)
 
 # Languages Used
 
